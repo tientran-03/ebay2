@@ -1,0 +1,100 @@
+﻿@model IEnumerable<_30_TranVietTien.Models.Dispute>
+@{
+    Layout = "_SellerLayout";
+}
+
+<style>
+    .table thead {
+        background: #f8f8f8 !important;
+    }
+
+    .table td, .table th {
+        vertical-align: middle;
+        font-size: 14px;
+    }
+
+    .status-box {
+        padding: 4px 10px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        font-size: 13px;
+        background: #fff;
+    }
+
+    .btn-mini {
+        padding: 3px 10px;
+        font-size: 13px;
+    }
+
+    .form-select-sm {
+        font-size: 13px;
+        height: 30px;
+    }
+</style>
+
+<div class="container py-4">
+
+    <h3 class="fw-bold mb-4">Buyer Disputes</h3>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-secondary">No disputes found.</div>
+    }
+    else
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th style="width:100px;">Dispute ID</th>
+                    <th style="width:100px;">Order</th>
+                    <th style="width:200px;">Buyer</th>
+                    <th>Issue</th>
+                    <th style="width:120px;">Status</th>
+                    <th style="width:200px;">Update Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var d in Model)
+                {
+                    <tr>
+                        <td>#@d.Id</td>
+
+                        <td>@d.OrderId</td>
+
+                        <td>
+                            @d.RaisedByNavigation?.Username <br />
+                            <small class="text-muted">@d.RaisedByNavigation?.Email</small>
+                        </td>
+
+                        <td>@d.Description</td>
+
+                        <td>
+                            <span class="status-box">@d.Status</span>
+                        </td>
+                        <td>
+                            <form asp-controller="SellerDispute"
+                                  asp-action="UpdateStatus"
+                                  method="post"
+                                  class="d-flex gap-2">
+
+                                <input type="hidden" name="disputeId" value="@d.Id" />
+
+                                <select name="status" class="form-select form-select-sm">
+                                    <option value="Pending" selected="@(d.Status == "Pending")">Pending</option>
+                                    <option value="In Review" selected="@(d.Status == "In Review")">In Review</option>
+                                    <option value="Approved" selected="@(d.Status == "Approved")">Approved</option>
+                                    <option value="Rejected" selected="@(d.Status == "Rejected")">Rejected</option>
+                                    <option value="Resolved" selected="@(d.Status == "Resolved")">Resolved</option>
+                                </select>
+
+                                <button class="btn btn-dark btn-mini">Save</button>
+                            </form>
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

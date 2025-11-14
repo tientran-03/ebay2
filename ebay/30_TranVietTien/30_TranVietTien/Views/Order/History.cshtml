@@ -1,0 +1,215 @@
+﻿@model IEnumerable<_30_TranVietTien.Models.OrderTable>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<style>
+    body {
+        background-color: #fff;
+        font-family: Arial, sans-serif;
+    }
+
+    .order-box {
+        border: 1px solid #ddd;
+        background: #fff;
+        margin-bottom: 25px;
+        border-radius: 4px;
+        padding: 20px;
+    }
+
+    .order-header {
+        font-size: 14px;
+        color: #777;
+    }
+
+    .item-img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        background: #fafafa;
+    }
+
+    .more-btn {
+        background: #fff;
+        border: 1px solid #ccc;
+        font-size: 13px;
+    }
+
+        .more-btn:hover {
+            background: #f5f5f5;
+        }
+
+    .order-section-title {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #555;
+    }
+
+    .order-box .dropdown {
+        position: relative;
+    }
+</style>
+
+<div class="container py-4">
+    @foreach (var o in Model)
+    {
+        <div class="order-box">
+            <div class="d-flex justify-content-between">
+                <div class="order-header">
+                    <strong>ORDER DATE:</strong>
+                    @o.OrderDate?.ToString("MMM dd, yyyy")
+                </div>
+                <div class="order-header">
+                    <strong>ORDER TOTAL:</strong>
+                    US $@o.TotalPrice
+                </div>
+            </div>
+
+            <hr />
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <div class="order-section-title">Order Status</div>
+                    <div>@o.Status</div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="order-section-title">Shipping Address</div>
+                    <div>
+                        @o.Address?.Street <br />
+                        @o.Address?.City
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="order-section-title">Payment Method</div>
+                    <div>@o.Payments.FirstOrDefault()?.Method</div>
+                </div>
+            </div>
+
+            <hr />
+            @foreach (var item in o.OrderItems)
+            {
+                var img = item.Product.Images;
+                var firstImg = (img != null && img.Contains(",")) ? img.Split(',')[0] : img;
+
+                <div class="row mb-4">
+                    <div class="col-2">
+                        <img src="@firstImg" class="item-img" />
+                    </div>
+
+                    <div class="col-6">
+                        <div><strong>@item.Product.Title</strong></div>
+                        <div class="text-muted" style="font-size:13px;">Qty: @item.Quantity</div>
+                    </div>
+
+                    <div class="col-4 text-end">
+                        <strong>US $@item.UnitPrice</strong>
+                        <div class="text-muted">Item price</div>
+
+                        <div class="dropdown mt-2">
+                            <button class="btn more-btn dropdown-toggle"
+                                    type="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                More actions
+                            </button>
+
+                            <ul class="dropdown-menu dropdown-menu-end" style="z-index: 9999 !important;">
+
+                                @if (o.Status == "Delivered")
+                                {
+                                    if (!o.ReturnRequests.Any())
+                                    {
+                                        <li>
+                                            <a asp-controller="ReturnRequest" asp-action="Create"
+                                               asp-route-orderId="@o.Id"
+                                               class="dropdown-item text-danger">
+                                                <i class="bi bi-arrow-counterclockwise me-2"></i>
+                                                Request Return
+                                            </a>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <li>
+                                            <a asp-controller="ReturnRequest" asp-action="Details"
+                                               asp-route-id="@o.ReturnRequests.First().Id"
+                                               class="dropdown-item">
+                                                <i class="bi bi-eye me-2"></i>
+                                                View Return Request
+                                            </a>
+                                        </li>
+                                    }
+                                }
+                                @if (o.Status == "Delivered")
+                                {
+                                    <li>
+                                        <a asp-controller="Dispute" asp-action="Report"
+                                           asp-route-orderId="@o.Id"
+                                           class="dropdown-item text-warning">
+                                            <i class="bi bi-exclamation-triangle me-2"></i>
+                                            Report a problem
+                                        </a>
+                                    </li>
+                                }
+
+                                @if (o.Status == "Cancelled")
+                                {
+                                    <li><span class="dropdown-item text-muted">Order was cancelled</span></li>
+                                }
+                            </ul>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            }
+
+        </div>
+        <div class="modal fade" id="returnModal-@o.Id">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <form asp-controller="Return" asp-action="Create" method="post">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Request Return (#@o.Id)</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <input type="hidden" name="orderId" value="@o.Id" />
+                            <textarea class="form-control" name="reason" rows="4" placeholder="Explain your reason..." required></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button class="btn btn-danger" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="disputeModal-@o.Id">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <form asp-controller="Dispute" asp-action="Create" method="post">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Report a Problem (#@o.Id)</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <input type="hidden" name="orderId" value="@o.Id" />
+                            <textarea class="form-control" name="description" rows="4" placeholder="Describe the issue..." required></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button class="btn btn-danger" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    }
+</div>

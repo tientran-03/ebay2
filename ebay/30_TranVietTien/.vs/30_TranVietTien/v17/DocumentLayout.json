@@ -1,0 +1,2090 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\shared\\_sellerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\shared\\_sellerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\storeseller\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\storeseller\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\storesellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\storesellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\chat\\thread.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\chat\\thread.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\report\\weekly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\report\\weekly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\coupon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\coupon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\dispute\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\dispute\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\viewmodels\\dashboardstatsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\viewmodels\\dashboardstatsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\viewmodels\\sellerdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\viewmodels\\sellerdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\viewmodels\\salesreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\viewmodels\\salesreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\report\\monthly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\report\\monthly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\services\\autoapprovereturnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\services\\autoapprovereturnservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\adminproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\adminproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\models\\cloneebaydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\models\\cloneebaydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\adminuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\adminuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\orderadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\orderadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\orderadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\orderadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\sellerproduct\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\sellerproduct\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\couponscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\couponscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\address\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\address\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\order\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\order\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\sellerorder\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\sellerorder\\invoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\sellerorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\sellerorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\sellerdispute\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\sellerdispute\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\sellerproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\sellerproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\sellerreturn\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\sellerreturn\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\returnrequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\returnrequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\returnrequest\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\returnrequest\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\sellerreturncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\sellerreturncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\returnrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\returnrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\sellerordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\sellerordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\sellercoupon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\sellercoupon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\sellercouponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\sellercouponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\sellerdisputecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\sellerdisputecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\models\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\models\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\models\\dispute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\models\\dispute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\disputecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\disputecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\useradmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\useradmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\models\\shippinginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\models\\shippinginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\utils\\productfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\utils\\productfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\utils\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\utils\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|c:\\users\\trant\\downloads\\ebay\\ebay\\30_tranviettien\\30_tranviettien\\utils\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50551C08-6CCB-4DC4-9FCE-87F9FD199ACB}|30_TranVietTien\\30_TranVietTien.csproj|solutionrelative:30_tranviettien\\utils\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 86,
+          "SelectedChildIndex": 203,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1377497384:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{588470cc-84f8-4a57-9ac4-86bca0625ff4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1928210406:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:69:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0504ff91-9d61-11d0-a794-00a0c9110051}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:37:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:33:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:45:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1196186238:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:32:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:37:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:40:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:43:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:42:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:41:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99a11807-c5db-4877-ad35-09b56a044012}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{9a7cebbb-dc5c-4986-bc49-962da46aa506}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{605322a2-17ae-43f4-b60f-766556e46c87}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:44:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:63:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:74:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:29:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:31:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:34:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{80c411e8-fd5e-4b16-914b-0d9d84172cc1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{6bf11835-8a31-496c-b01e-94f731afc7ce}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:48:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:126:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:127:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:188:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:189:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:190:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:191:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:193:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Address\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Address\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Address\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Address\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T20:06:01.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\OrderAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\OrderAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\OrderAdmin\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\OrderAdmin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T20:02:48.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Program.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Program.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Program.cs",
+              "RelativeToolTip": "30_TranVietTien\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T19:31:06.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerReturn\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\SellerReturn\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerReturn\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\SellerReturn\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T18:58:06.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\ReturnRequest\\Create.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\ReturnRequest\\Create.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\ReturnRequest\\Create.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\ReturnRequest\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T18:57:42.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\ReturnRequest\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\ReturnRequest\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\ReturnRequest\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\ReturnRequest\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T18:57:06.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SellerReturnController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\SellerReturnController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\SellerReturnController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\SellerReturnController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\SellerReturnController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T18:56:05.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Coupon.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Models\\Coupon.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Models\\Coupon.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Models\\Coupon.cs",
+              "RelativeToolTip": "30_TranVietTien\\Models\\Coupon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T18:01:53.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Dispute.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Models\\Dispute.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Models\\Dispute.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Models\\Dispute.cs",
+              "RelativeToolTip": "30_TranVietTien\\Models\\Dispute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T18:01:52.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SellerCouponController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\SellerCouponController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\SellerCouponController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\SellerCouponController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\SellerCouponController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwEUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T17:59:23.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerCoupon\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\SellerCoupon\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerCoupon\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\SellerCoupon\\Index.cshtml",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAgwOsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T17:58:58.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Coupon\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Coupon\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Coupon\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Coupon\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T17:58:31.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CouponsController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\CouponsController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\CouponsController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\CouponsController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\CouponsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T17:58:17.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-14T17:41:21.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\CheckoutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T17:27:19.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Models\\Message.cs",
+              "RelativeToolTip": "30_TranVietTien\\Models\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T17:18:36.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\SellerProduct\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerProduct\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\SellerProduct\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T17:09:47.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerProduct\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\SellerProduct\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerProduct\\Dashboard.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\SellerProduct\\Dashboard.cshtml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAApwHQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T17:09:43.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\ChatController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAC0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T17:06:20.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Services\\ReviewService.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Services\\ReviewService.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Services\\ReviewService.cs",
+              "RelativeToolTip": "30_TranVietTien\\Services\\ReviewService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:47:49.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "DisputeController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\DisputeController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\DisputeController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\DisputeController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\DisputeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:00:23.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ReturnRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\ReturnRequestController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\ReturnRequestController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\ReturnRequestController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\ReturnRequestController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwEMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:00:07.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Services\\OrderService.cs",
+              "RelativeToolTip": "30_TranVietTien\\Services\\OrderService.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwEsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T15:39:57.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwBgAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T15:33:52.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Order\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Order\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Order\\Checkout.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Order\\Checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T15:33:28.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Order\\History.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Order\\History.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Order\\History.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Order\\History.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAJ4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T15:29:09.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ProductFilter.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Utils\\ProductFilter.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Utils\\ProductFilter.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Utils\\ProductFilter.cs",
+              "RelativeToolTip": "30_TranVietTien\\Utils\\ProductFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T09:14:16.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Utils\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Utils\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Utils\\PasswordHasher.cs",
+              "RelativeToolTip": "30_TranVietTien\\Utils\\PasswordHasher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T09:14:15.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "PagedList.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Utils\\PagedList.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Utils\\PagedList.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Utils\\PagedList.cs",
+              "RelativeToolTip": "30_TranVietTien\\Utils\\PagedList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T09:14:09.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Helpers\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Helpers\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Helpers\\SessionExtensions.cs",
+              "RelativeToolTip": "30_TranVietTien\\Helpers\\SessionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T09:14:00.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Products\\Details.cshtml",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAgwJEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T07:59:04.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAO0AAAAAAAAAAAAgwBcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T07:57:47.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_SellerLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Shared\\_SellerLayout.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Shared\\_SellerLayout.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Shared\\_SellerLayout.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Shared\\_SellerLayout.cshtml",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAgwKMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T07:46:52.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T07:45:46.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Thread.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Chat\\Thread.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Chat\\Thread.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Chat\\Thread.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Chat\\Thread.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T07:45:00.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Chat\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Chat\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Chat\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Chat\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T07:44:40.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\appsettings.json",
+              "RelativeDocumentMoniker": "30_TranVietTien\\appsettings.json",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\appsettings.json",
+              "RelativeToolTip": "30_TranVietTien\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-14T07:44:01.922Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 206,
+          "SelectedChildIndex": 36,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:122:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:123:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5b6781c0-e99d-11d0-9954-00a0c91bc8e5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:67:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:68:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:73:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:78:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:81:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\StoreSeller\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\StoreSeller\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\StoreSeller\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\StoreSeller\\Index.cshtml",
+              "ViewState": "AQIAALEAAAAAAAAAAAAgwOoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T21:24:13.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StoreSellerController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\StoreSellerController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\StoreSellerController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\StoreSellerController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\StoreSellerController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T21:23:33.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Models\\Store.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Models\\Store.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Models\\Store.cs",
+              "RelativeToolTip": "30_TranVietTien\\Models\\Store.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T21:22:44.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T21:11:12.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T21:11:04.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T21:07:32.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SellerDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\ViewModels\\SellerDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\ViewModels\\SellerDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\ViewModels\\SellerDashboardViewModel.cs",
+              "RelativeToolTip": "30_TranVietTien\\ViewModels\\SellerDashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T21:01:58.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SalesReportViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\ViewModels\\SalesReportViewModel.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\ViewModels\\SalesReportViewModel.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\ViewModels\\SalesReportViewModel.cs",
+              "RelativeToolTip": "30_TranVietTien\\ViewModels\\SalesReportViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T21:01:55.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Weekly.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Report\\Weekly.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Report\\Weekly.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Report\\Weekly.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Report\\Weekly.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T20:59:58.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Monthly.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Report\\Monthly.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Report\\Monthly.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Report\\Monthly.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Report\\Monthly.cshtml",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAgwNUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T20:59:51.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\AdminDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\AdminDashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\AdminDashboard\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\AdminDashboard\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T20:55:04.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\AdminDashboardController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\AdminDashboardController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\AdminDashboardController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\AdminDashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T20:52:53.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashboardStatsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\ViewModels\\DashboardStatsViewModel.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\ViewModels\\DashboardStatsViewModel.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\ViewModels\\DashboardStatsViewModel.cs",
+              "RelativeToolTip": "30_TranVietTien\\ViewModels\\DashboardStatsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T20:52:33.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrderAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\OrderAdminController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\OrderAdminController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\OrderAdminController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\OrderAdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T20:45:33.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AutoApproveReturnService.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Services\\AutoApproveReturnService.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Services\\AutoApproveReturnService.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Services\\AutoApproveReturnService.cs",
+              "RelativeToolTip": "30_TranVietTien\\Services\\AutoApproveReturnService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T19:30:36.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Invoice.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerOrder\\Invoice.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\SellerOrder\\Invoice.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerOrder\\Invoice.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\SellerOrder\\Invoice.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T19:30:21.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SellerOrderController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\SellerOrderController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\SellerOrderController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\SellerOrderController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\SellerOrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T18:46:22.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\CartController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T18:21:09.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\UserAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\UserAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\UserAdmin\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\UserAdmin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T17:38:30.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ShippingInfo.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Models\\ShippingInfo.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Models\\ShippingInfo.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Models\\ShippingInfo.cs",
+              "RelativeToolTip": "30_TranVietTien\\Models\\ShippingInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:53:27.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\ReviewController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:49:27.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Services\\ProductService.cs",
+              "RelativeToolTip": "30_TranVietTien\\Services\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:43:35.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAAHoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:42:32.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T16:38:33.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAALsAAAAAAAAAAAAAAOAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T16:36:52.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\AddressController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\AddressController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\AddressController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\AddressController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:36:05.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:36:05.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\AdminProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\AdminProduct\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\AdminProduct\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\AdminProduct\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T16:35:25.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AdminProductController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\AdminProductController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\AdminProductController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\AdminProductController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\AdminProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:34:51.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\AdminUser\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\AdminUser\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\AdminUser\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\AdminUser\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T16:34:35.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "AdminUserController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\AdminUserController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\AdminUserController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\AdminUserController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\AdminUserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:34:10.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T16:33:49.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:33:32.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerDispute\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\SellerDispute\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerDispute\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\SellerDispute\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T16:19:08.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Report.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Dispute\\Report.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Dispute\\Report.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Dispute\\Report.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Dispute\\Report.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T16:17:12.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerOrder\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\SellerOrder\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\SellerOrder\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\SellerOrder\\Index.cshtml",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAgwMUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T16:10:05.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "SellerDisputeController.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\SellerDisputeController.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Controllers\\SellerDisputeController.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Controllers\\SellerDisputeController.cs",
+              "RelativeToolTip": "30_TranVietTien\\Controllers\\SellerDisputeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwEMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T16:09:47.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CloneEbayDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Models\\CloneEbayDbContext.cs",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Models\\CloneEbayDbContext.cs",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Models\\CloneEbayDbContext.cs",
+              "RelativeToolTip": "30_TranVietTien\\Models\\CloneEbayDbContext.cs",
+              "ViewState": "AQIAAKoBAAAAAAAAAAAYwOIBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T15:38:55.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T07:57:27.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "30_TranVietTien\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\TranT\\Downloads\\ebay\\ebay\\30_TranVietTien\\30_TranVietTien\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "30_TranVietTien\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T07:57:27.284Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1304,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{260978c3-582c-487d-ab12-c1fdde07c578}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{93c5e7ad-af06-49e6-a756-b8f3eaca790d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

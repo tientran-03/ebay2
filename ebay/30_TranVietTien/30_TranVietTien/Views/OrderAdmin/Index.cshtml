@@ -1,0 +1,29 @@
+﻿@model IEnumerable<OrderTable>
+@{
+    Layout = "_AdminLayout";
+}
+<table class="table table-bordered table-hover align-middle">
+    <thead class="table-light">
+        <tr>
+            <th>ID</th>
+            <th>Buyer</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var o in Model)
+        {
+            <tr>
+                <td>@o.Id</td>
+                <td>@o.Buyer?.Username</td>
+                <td>@o.OrderDate?.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>
+                    <span class="badge bg-dark">@o.Status</span>
+                </td>
+                <td class="fw-semibold">$@o.TotalPrice</td>
+            </tr>
+        }
+    </tbody>
+</table>

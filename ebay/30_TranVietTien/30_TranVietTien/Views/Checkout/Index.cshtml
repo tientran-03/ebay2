@@ -1,0 +1,73 @@
+﻿@using _30_TranVietTien.ViewModels.Cart
+@model List<CartItemVM>
+
+@{
+    ViewData["Title"] = "Checkout";
+    var addresses = ViewBag.Addresses as List<_30_TranVietTien.Models.Address> ?? new();
+}
+
+<h3>Checkout</h3>
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info">Your cart is empty.</div>
+}
+else
+{
+    <div class="row">
+        <div class="col-lg-7">
+            <form asp-action="PlaceOrder" method="post">
+                @Html.AntiForgeryToken()
+
+                <div class="mb-3">
+                    <label class="form-label">Shipping address</label>
+                    <select name="addressId" class="form-select" required>
+                        @foreach (var a in addresses)
+                        {
+                            <option value="@a.Id">
+                                @a.FullName - @a.Street, @a.City, @a.State, @a.Country (@(a.IsDefault == true ? "Default" : ""))
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Payment method</label>
+                    <select name="method" class="form-select">
+                        <option>COD</option>
+                        <option>PayPalMock</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Coupon</label>
+                    <input name="couponCode" class="form-control" placeholder="Enter coupon code (optional)" />
+                </div>
+
+                <button class="btn btn-success">
+                    Place order
+                </button>
+            </form>
+        </div>
+
+        <div class="col-lg-5">
+            <div class="card">
+                <div class="card-header fw-semibold">Order summary</div>
+                <div class="card-body">
+                    @foreach (var i in Model)
+                    {
+                        <div class="d-flex justify-content-between border-bottom py-2">
+                            <div>@i.Title (x@i.Qty)</div>
+                            <div>$@(i.Price * i.Qty)</div>
+                        </div>
+                    }
+                    <div class="text-end mt-3">
+                        <div class="fw-bold fs-5">
+                            Total: $@Model.Sum(x => x.Price * x.Qty)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

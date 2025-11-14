@@ -1,0 +1,67 @@
+﻿@model DashboardStatsViewModel
+
+@{
+    Layout = "_AdminLayout";
+}
+
+
+<div class="row g-4">
+    <div class="col-md-4">
+        <div class="stats-card">
+            <div class="d-flex align-items-center">
+                <div class="stats-icon"><i class="bi bi-cash-stack"></i></div>
+                <div class="ms-3">
+                    <h6>Revenue Today</h6>
+                    <h4 class="fw-bold text-success">$@Model.RevenueToday</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="stats-card">
+            <div class="d-flex align-items-center">
+                <div class="stats-icon"><i class="bi bi-calendar-event"></i></div>
+                <div class="ms-3">
+                    <h6>Revenue This Month</h6>
+                    <h4 class="fw-bold text-primary">$@Model.RevenueMonth</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="stats-card">
+            <div class="d-flex align-items-center">
+                <div class="stats-icon"><i class="bi bi-bar-chart"></i></div>
+                <div class="ms-3">
+                    <h6>Revenue This Quarter</h6>
+                    <h4 class="fw-bold text-dark">$@Model.RevenueQuarter</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Orders -->
+    <div class="col-md-4">
+        <div class="stats-card">
+            <h6>Orders Today</h6>
+            <h3>@Model.OrdersToday</h3>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="stats-card">
+            <h6>Orders This Month</h6>
+            <h3>@Model.OrdersMonth</h3>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="stats-card">
+            <h6>Orders This Quarter</h6>
+            <h3>@Model.OrdersQuarter</h3>
+        </div>
+    </div>
+
+</div>

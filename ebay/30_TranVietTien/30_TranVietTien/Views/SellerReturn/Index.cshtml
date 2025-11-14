@@ -1,0 +1,158 @@
+﻿@model IEnumerable<_30_TranVietTien.Models.ReturnRequest>
+
+@{
+    Layout = "_SellerLayout";
+}
+<div class="container py-4">
+    <div class="card border-0 shadow-sm">
+        <div class="card-body p-0">
+
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light border-bottom">
+                    <tr>
+                        <th>ID</th>
+                        <th>Order</th>
+                        <th>User</th>
+                        <th>Reason</th>
+                        <th>Evidence</th>
+                        <th>Status</th>
+                        <th>Response</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var r in Model)
+                    {
+                        <tr>
+                            <td>@r.Id</td>
+
+                            <td>#@r.OrderId</td>
+
+                            <td>
+                                <strong>@r.User?.Username</strong>
+                                <div class="text-muted small">@r.User?.Email</div>
+                            </td>
+
+                            <td style="max-width: 250px;">@r.Reason</td>
+
+                            <td>
+                                @if (!string.IsNullOrEmpty(r.EvidenceImage))
+                                {
+                                    <img src="@r.EvidenceImage"
+                                         class="rounded border"
+                                         style="width: 70px; height: 70px; object-fit: cover;" />
+                                }
+                                else
+                                {
+                                    <span class="text-muted">None</span>
+                                }
+                            </td>
+
+                            <td>
+                                @{
+                                    var badgeStyle = r.Status switch
+                                    {
+                                        "Pending" => "border-dark text-dark",
+                                        "Approved" => "border-success text-success",
+                                        "Rejected" => "border-danger text-danger",
+                                        _ => "border-secondary text-secondary"
+                                    };
+                                }
+
+                                <span class="badge bg-white border @badgeStyle px-3 py-2">
+                                    @r.Status
+                                </span>
+                            </td>
+
+                            <td style="max-width:200px;">
+                                @if (!string.IsNullOrEmpty(r.SellerResponse))
+                                {
+                                    <span>@r.SellerResponse</span>
+                                }
+                                else
+                                {
+                                    <span class="text-muted small">No response yet</span>
+                                }
+                            </td>
+
+                            <td>
+                                <button class="btn btn-outline-dark btn-sm rounded-pill px-3"
+                                        onclick="openModal(@r.Id, '@r.Status', '@r.SellerResponse')">
+                                    Edit
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="returnModal">
+    <div class="modal-dialog">
+        <div class="modal-content border-0 p-3 shadow-sm">
+
+            <h5 class="fw-bold mb-3">Edit Return Request</h5>
+
+            <form id="returnForm">
+                <input type="hidden" id="reqId" />
+
+                <div class="mb-3">
+                    <label class="fw-semibold">Status</label>
+                    <select id="reqStatus" class="form-select">
+                        <option value="Pending">Pending</option>
+                        <option value="Approved">Approved</option>
+                        <option value="Rejected">Rejected</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label class="fw-semibold">Seller Response</label>
+                    <textarea id="reqResponse" class="form-control" rows="3"
+                              placeholder="Type a response..."></textarea>
+                </div>
+
+                <div class="d-flex justify-content-end gap-2">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                        Cancel
+                    </button>
+
+                    <button type="submit" class="btn btn-outline-dark px-4">
+                        Save
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    function openModal(id, status, response) {
+        document.getElementById("reqId").value = id;
+        document.getElementById("reqStatus").value = status;
+        document.getElementById("reqResponse").value = response;
+        const modal = new bootstrap.Modal(document.getElementById("returnModal"));
+        modal.show();
+    }
+
+    document.getElementById("returnForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        $.post("/SellerReturn/UpdateStatus", {
+            id: $("#reqId").val(),
+            status: $("#reqStatus").val(),
+            response: $("#reqResponse").val()
+        }, function (res) {
+            if (res.success) {
+                location.reload();
+            } else {
+                alert("Update failed!");
+            }
+        });
+    });
+</script>
+

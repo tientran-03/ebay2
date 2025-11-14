@@ -1,0 +1,234 @@
+﻿@model IEnumerable<_30_TranVietTien.Models.Store>
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    Layout = "_SellerLayout";
+    ViewData["Title"] = "Store Management";
+    var sellerId = HttpContextAccessor.HttpContext.Session.GetInt32("UserId");
+}
+
+<style>
+    .btn-white {
+        background: white;
+        border: 1px solid #ddd;
+        color: #333;
+    }
+
+        .btn-white:hover {
+            background: #f5f5f5;
+        }
+
+    .modal-content {
+        border-radius: 8px;
+    }
+
+    .table thead {
+        background: #fafafa;
+    }
+
+    .toast {
+        background: white !important;
+        color: #333 !important;
+        border: 1px solid #ddd;
+    }
+</style>
+
+<div class="d-flex justify-content-between mb-3">
+    <button class="btn btn-white" data-bs-toggle="modal" data-bs-target="#addModal">
+         Add Store
+    </button>
+</div>
+
+<table class="table table-hover table-bordered bg-white">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Store Name</th>
+            <th>Banner</th>
+            <th>Description</th>
+            <th style="width:150px;">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr data-id="@s.Id">
+                <td>@s.Id</td>
+                <td>@s.StoreName</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(s.BannerImageUrl))
+                    {
+                        <img src="@s.BannerImageUrl" style="width:80px;height:40px;object-fit:cover;border-radius:4px;" />
+                    }
+                </td>
+                <td>@s.Description</td>
+                <td>
+                    <button class="btn btn-sm btn-white editBtn"
+                            data-id="@s.Id"
+                            data-name="@s.StoreName"
+                            data-desc="@s.Description"
+                            data-banner="@s.BannerImageUrl">
+                        Edit
+                    </button>
+
+                    <button class="btn btn-sm btn-white deleteBtn"
+                            data-id="@s.Id">
+                        Delete
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="modal fade" id="addModal">
+    <div class="modal-dialog">
+        <div class="modal-content bg-white">
+            <div class="modal-header">
+                <h5>Add Store</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <label>Store Name</label>
+                <input class="form-control" id="storeNameAdd" />
+
+                <label class="mt-2">Description</label>
+                <textarea class="form-control" id="storeDescAdd"></textarea>
+
+                <label class="mt-2">Banner URL</label>
+                <input class="form-control" id="storeBannerAdd" />
+
+                <input type="hidden" id="sellerId" value="@sellerId" />
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-white" data-bs-dismiss="modal">Cancel</button>
+                <button class="btn btn-white" id="saveAdd">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="editModal">
+    <div class="modal-dialog">
+        <div class="modal-content bg-white">
+            <div class="modal-header">
+                <h5>Edit Store</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <input type="hidden" id="storeIdEdit" />
+
+                <label>Store Name</label>
+                <input class="form-control" id="storeNameEdit" />
+
+                <label class="mt-2">Description</label>
+                <textarea class="form-control" id="storeDescEdit"></textarea>
+
+                <label class="mt-2">Banner URL</label>
+                <input class="form-control" id="storeBannerEdit" />
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-white" data-bs-dismiss="modal">Cancel</button>
+                <button class="btn btn-white" id="saveEdit">Update</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="deleteModal">
+    <div class="modal-dialog">
+        <div class="modal-content bg-white">
+            <div class="modal-header">
+                <h5>Delete Store</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                Delete this store?
+                <input type="hidden" id="deleteId" />
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-white" data-bs-dismiss="modal">Cancel</button>
+                <button class="btn btn-white" id="saveDelete">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index:9999;">
+    <div id="toast" class="toast">
+        <div class="d-flex">
+            <div class="toast-body" id="toastMessage"></div>
+            <button class="btn-close me-2" data-bs-dismiss="toast"></button>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <script>
+        function showToast(msg) {
+            $("#toastMessage").text(msg);
+            new bootstrap.Toast(document.getElementById("toast")).show();
+        }
+
+        $("#saveAdd").click(function () {
+            $.post("/StoreSeller/Create",
+                {
+                    storeName: $("#storeNameAdd").val(),
+                    description: $("#storeDescAdd").val(),
+                    bannerUrl: $("#storeBannerAdd").val(),
+                    sellerId: $("#sellerId").val()
+                },
+                function (res) {
+                    if (res.success) {
+                        showToast("Store created successfully!");
+                        setTimeout(() => location.reload(), 700);
+                    }
+                });
+        });
+
+        $(".editBtn").click(function () {
+            $("#storeIdEdit").val($(this).data("id"));
+            $("#storeNameEdit").val($(this).data("name"));
+            $("#storeDescEdit").val($(this).data("desc"));
+            $("#storeBannerEdit").val($(this).data("banner"));
+            $("#editModal").modal("show");
+        });
+
+        $("#saveEdit").click(function () {
+            $.post("/StoreSeller/Edit",
+                {
+                    id: $("#storeIdEdit").val(),
+                    storeName: $("#storeNameEdit").val(),
+                    description: $("#storeDescEdit").val(),
+                    bannerUrl: $("#storeBannerEdit").val()
+                },
+                function (res) {
+                    if (res.success) {
+                        showToast("Store updated successfully!");
+                        setTimeout(() => location.reload(), 700);
+                    }
+                });
+        });
+
+        $(".deleteBtn").click(function () {
+            $("#deleteId").val($(this).data("id"));
+            $("#deleteModal").modal("show");
+        });
+
+        $("#saveDelete").click(function () {
+            $.post("/StoreSeller/Delete",
+                { id: $("#deleteId").val() },
+                function (res) {
+                    if (res.success) {
+                        showToast("Store deleted!");
+                        setTimeout(() => location.reload(), 700);
+                    }
+                });
+        });
+    </script>
+}

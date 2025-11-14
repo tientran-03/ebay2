@@ -1,0 +1,213 @@
+﻿@model IEnumerable<_30_TranVietTien.ViewModels.SalesReportViewModel>
+@{
+    ViewData["Title"] = "Monthly Sales Report";
+    Layout = "_SellerLayout";
+}
+
+<!-- Page Header -->
+<div class="page-header">
+    <div class="d-flex justify-content-between align-items-center">
+        <div>
+            <h4 class="mb-1">Monthly Sales Report</h4>
+            <p class="text-muted mb-0">View your monthly sales performance and revenue</p>
+        </div>
+        <div class="d-flex gap-2">
+            <a href="/Report/Weekly" class="btn btn-outline-primary">
+                <i class="bi bi-calendar-week me-1"></i>Weekly Report
+            </a>
+        </div>
+    </div>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="text-center py-5">
+        <i class="bi bi-graph-up fs-1 text-muted"></i>
+        <h5 class="mt-3">No sales data found</h5>
+        <p class="text-muted">Sales data will appear here once you have completed orders.</p>
+    </div>
+}
+else
+{
+    <!-- Chart Card -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h6 class="mb-0">
+                <i class="bi bi-bar-chart me-2"></i>Sales Performance Chart
+            </h6>
+        </div>
+        <div class="card-body">
+            <canvas id="salesChart" height="100"></canvas>
+        </div>
+    </div>
+
+    <!-- Summary Stats -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="stats-card">
+                <div class="d-flex align-items-center">
+                    <div class="stats-icon primary me-3">
+                        <i class="bi bi-receipt"></i>
+                    </div>
+                    <div>
+                        <h5 class="mb-1">@Model.Sum(m => m.TotalOrders)</h5>
+                        <p class="text-muted mb-0 small">Total Orders</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card">
+                <div class="d-flex align-items-center">
+                    <div class="stats-icon success me-3">
+                        <i class="bi bi-currency-dollar"></i>
+                    </div>
+                    <div>
+                        <h5 class="mb-1">@Model.Sum(m => m.TotalRevenue).ToString("N0") ₫</h5>
+                        <p class="text-muted mb-0 small">Total Revenue</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card">
+                <div class="d-flex align-items-center">
+                    <div class="stats-icon warning me-3">
+                        <i class="bi bi-graph-up"></i>
+                    </div>
+                    <div>
+                        <h5 class="mb-1">@(Model.Any() ? (Model.Sum(m => m.TotalRevenue) / Model.Count()).ToString("N0") : "0") ₫</h5>
+                        <p class="text-muted mb-0 small">Avg per Month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card">
+                <div class="d-flex align-items-center">
+                    <div class="stats-icon danger me-3">
+                        <i class="bi bi-calendar"></i>
+                    </div>
+                    <div>
+                        <h5 class="mb-1">@Model.Count()</h5>
+                        <p class="text-muted mb-0 small">Months Active</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Table -->
+    <div class="card">
+        <div class="card-header">
+            <h6 class="mb-0">
+                <i class="bi bi-table me-2"></i>Detailed Monthly Data
+            </h6>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Month</th>
+                            <th>Total Orders</th>
+                            <th>Total Revenue</th>
+                            <th>Average Order Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            var avgOrderValue = item.TotalOrders > 0 ? item.TotalRevenue / item.TotalOrders : 0;
+                            
+                            <tr>
+                                <td class="fw-semibold">@item.Period</td>
+                                <td>
+                                    <span class="badge bg-primary">@item.TotalOrders</span>
+                                </td>
+                                <td class="fw-bold text-success">@item.TotalRevenue.ToString("N0") ₫</td>
+                                <td>@avgOrderValue.ToString("N0") ₫</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const labels = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Select(m => m.Period)));
+    const orders = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Select(m => m.TotalOrders)));
+    const revenue = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Select(m => m.TotalRevenue)));
+
+    const ctx = document.getElementById('salesChart');
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'Revenue (₫)',
+                    data: revenue,
+                    backgroundColor: 'rgba(54, 162, 235, 0.1)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.4
+                },
+                {
+                    label: 'Orders',
+                    data: orders,
+                    backgroundColor: 'rgba(255, 206, 86, 0.1)',
+                    borderColor: 'rgba(255, 206, 86, 1)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.4,
+                    yAxisID: 'y1'
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'Monthly Sales Performance'
+                }
+            },
+            scales: {
+                y: {
+                    type: 'linear',
+                    display: true,
+                    position: 'left',
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Revenue (₫)'
+                    }
+                },
+                y1: {
+                    type: 'linear',
+                    display: true,
+                    position: 'right',
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Orders'
+                    },
+                    grid: {
+                        drawOnChartArea: false,
+                    },
+                }
+            }
+        }
+    });
+</script>
+}

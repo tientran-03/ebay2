@@ -1,0 +1,216 @@
+﻿@model IEnumerable<_30_TranVietTien.ViewModels.SalesReportViewModel>
+@{
+    ViewData["Title"] = "Weekly Sales Report";
+    Layout = "_SellerLayout";
+}
+
+<!-- Page Header -->
+<div class="page-header">
+    <div class="d-flex justify-content-between align-items-center">
+        <div>
+            <h4 class="mb-1">Weekly Sales Report</h4>
+            <p class="text-muted mb-0">View your weekly sales performance and trends</p>
+        </div>
+        <div class="d-flex gap-2">
+            <a href="/Report/Monthly" class="btn btn-outline-primary">
+                <i class="bi bi-calendar-month me-1"></i>Monthly Report
+            </a>
+        </div>
+    </div>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="text-center py-5">
+        <i class="bi bi-graph-down fs-1 text-muted"></i>
+        <h5 class="mt-3">No weekly data found</h5>
+        <p class="text-muted">Weekly sales data will appear here once you have completed orders.</p>
+    </div>
+}
+else
+{
+    <!-- Chart Card -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h6 class="mb-0">
+                <i class="bi bi-graph-up me-2"></i>Weekly Sales Trend
+            </h6>
+        </div>
+        <div class="card-body">
+            <canvas id="weeklyChart" height="100"></canvas>
+        </div>
+    </div>
+
+    <!-- Summary Stats -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="stats-card">
+                <div class="d-flex align-items-center">
+                    <div class="stats-icon primary me-3">
+                        <i class="bi bi-receipt"></i>
+                    </div>
+                    <div>
+                        <h5 class="mb-1">@Model.Sum(m => m.TotalOrders)</h5>
+                        <p class="text-muted mb-0 small">Total Orders</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card">
+                <div class="d-flex align-items-center">
+                    <div class="stats-icon success me-3">
+                        <i class="bi bi-currency-dollar"></i>
+                    </div>
+                    <div>
+                        <h5 class="mb-1">@Model.Sum(m => m.TotalRevenue).ToString("N0") ₫</h5>
+                        <p class="text-muted mb-0 small">Total Revenue</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card">
+                <div class="d-flex align-items-center">
+                    <div class="stats-icon warning me-3">
+                        <i class="bi bi-graph-up"></i>
+                    </div>
+                    <div>
+                        <h5 class="mb-1">@(Model.Any() ? (Model.Sum(m => m.TotalRevenue) / Model.Count()).ToString("N0") : "0") ₫</h5>
+                        <p class="text-muted mb-0 small">Avg per Week</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card">
+                <div class="d-flex align-items-center">
+                    <div class="stats-icon danger me-3">
+                        <i class="bi bi-calendar-week"></i>
+                    </div>
+                    <div>
+                        <h5 class="mb-1">@Model.Count()</h5>
+                        <p class="text-muted mb-0 small">Weeks Active</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Table -->
+    <div class="card">
+        <div class="card-header">
+            <h6 class="mb-0">
+                <i class="bi bi-table me-2"></i>Weekly Performance Details
+            </h6>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Week</th>
+                            <th>Orders</th>
+                            <th>Revenue</th>
+                            <th>Avg Order Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            var avgOrderValue = item.TotalOrders > 0 ? item.TotalRevenue / item.TotalOrders : 0;
+                            
+                            <tr>
+                                <td class="fw-semibold">@item.Period</td>
+                                <td>
+                                    <span class="badge bg-primary">@item.TotalOrders</span>
+                                </td>
+                                <td class="fw-bold text-success">@item.TotalRevenue.ToString("N0") ₫</td>
+                                <td>@avgOrderValue.ToString("N0") ₫</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const labels = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Select(m => m.Period)));
+    const revenue = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Select(m => m.TotalRevenue)));
+    const orders = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Select(m => m.TotalOrders)));
+
+    const ctx = document.getElementById('weeklyChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'Revenue (₫)',
+                    data: revenue,
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.1)',
+                    tension: 0.4,
+                    fill: true,
+                    yAxisID: 'y1'
+                },
+                {
+                    label: 'Orders',
+                    data: orders,
+                    borderColor: 'rgba(255, 159, 64, 1)',
+                    backgroundColor: 'rgba(255, 159, 64, 0.1)',
+                    tension: 0.4,
+                    fill: true,
+                    yAxisID: 'y2'
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            interaction: { 
+                mode: 'index', 
+                intersect: false 
+            },
+            plugins: {
+                legend: { 
+                    position: 'top' 
+                },
+                title: {
+                    display: true,
+                    text: 'Weekly Sales Performance Overview'
+                }
+            },
+            scales: {
+                y1: {
+                    type: 'linear',
+                    display: true,
+                    position: 'left',
+                    beginAtZero: true,
+                    title: { 
+                        display: true, 
+                        text: 'Revenue (₫)' 
+                    }
+                },
+                y2: {
+                    type: 'linear',
+                    display: true,
+                    position: 'right',
+                    beginAtZero: true,
+                    title: { 
+                        display: true, 
+                        text: 'Orders' 
+                    },
+                    grid: { 
+                        drawOnChartArea: false 
+                    }
+                }
+            }
+        }
+    });
+</script>
+}

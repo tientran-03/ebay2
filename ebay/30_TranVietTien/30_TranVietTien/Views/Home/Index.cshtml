@@ -1,0 +1,107 @@
+﻿@model IEnumerable<_30_TranVietTien.Models.Product>
+@{
+    Layout = "_Layout";
+    var categories = ViewBag.Categories as List<_30_TranVietTien.Models.Category>;
+    int currentPage = ViewBag.CurrentPage ?? 1;
+    int totalPages = ViewBag.TotalPages ?? 1;
+}
+
+<section class="hero py-5 text-white"
+         style="background-image: url('https://ebaysellertemplates.wordpress.com/wp-content/uploads/2015/04/cate-banner-store.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;">
+    <div class="container text-center">
+        <h1 class="fw-bold mb-3 text-shadow">Discover amazing deals every day!</h1>
+        <p class="text-light mb-4">Thousands of new listings are added daily.</p>
+    </div>
+</section>
+
+<section class="py-5 border-top bg-light">
+    <div class="container text-center">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h3 class="fw-bold">Categories</h3>
+            <a href="/Categories" class="text-decoration-none fw-semibold">See all <i class="bi bi-chevron-right"></i></a>
+        </div>
+
+        <div class="row justify-content-center g-4">
+            @{
+                var topCats = categories?.Take(5).ToList();
+                var catImages = new List<string>
+            {
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa7AmQcFcWI-1R7z9Z1XQr6mLJmK_zUC32rA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfk9CHKILZ_mTH6Txk5a46O3SCVNqx0ZQabw&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd2rXd2tSxEjGUCkCVXggVJdecDyMGIqpAWA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEAzTbSB4Xy7uGvE77po0uHsvdAjmI7meD4A&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt5rAupktECFwzAw1OjEGODU_p8vR-c9_-Ag&s"
+            };
+            }
+
+            @if (topCats != null && topCats.Count > 0)
+            {
+                for (int i = 0; i < topCats.Count; i++)
+                {
+                    var c = topCats[i];
+                    var img = catImages.ElementAtOrDefault(i) ?? "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg";
+
+                    <div class="col-6 col-md-2">
+                        <a asp-controller="Categories" asp-action="Details" asp-route-id="@c.Id" class="text-decoration-none text-dark">
+                            <div class="rounded-circle overflow-hidden shadow-sm mx-auto" style="width:140px; height:140px;">
+                                <img src="@img" alt="@c.Name" class="w-100 h-100" style="object-fit: cover;">
+                            </div>
+                            <p class="fw-semibold mt-3">@c.Name</p>
+                        </a>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>No categories available.</p>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h3 class="fw-bold">Products</h3>
+        </div>
+
+        <div class="row g-4">
+            @foreach (var p in Model)
+            {
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="card border-0 shadow-sm h-100">
+                        <a asp-controller="Products" asp-action="Details" asp-route-id="@p.Id" class="text-decoration-none">
+                            <img src="@p.Images" class="card-img-top" alt="@p.Title"
+                                 style="height: 160px; object-fit: cover;">
+                        </a>
+                        <div class="card-body text-center">
+                            <h6 class="card-title text-truncate">@p.Title</h6>
+                            <p class="text-muted mb-2 small">@p.Category?.Name</p>
+                            <p class="fw-bold text-primary">$@p.Price</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        @if (totalPages > 1)
+        {
+            <div class="d-flex justify-content-center align-items-center mt-4 gap-3">
+                @if (currentPage > 1)
+                {
+                    <a href="@Url.Action("Index", new { page = currentPage - 1, q = ViewBag.CurrentQuery, cat = ViewBag.SelectedCat })" class="btn btn-outline-secondary btn-sm">← Previous</a>
+                }
+
+                <span> @currentPage / @totalPages</span>
+
+                @if (currentPage < totalPages)
+                {
+                    <a href="@Url.Action("Index", new { page = currentPage + 1, q = ViewBag.CurrentQuery, cat = ViewBag.SelectedCat })" class="btn btn-outline-secondary btn-sm">Next →</a>
+                }
+            </div>
+        }
+    </div>
+</section>

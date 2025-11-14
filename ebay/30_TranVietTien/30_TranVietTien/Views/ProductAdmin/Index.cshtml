@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Product>
+@{
+    Layout = "_AdminLayout";
+}
+<h2>Products</h2>
+
+<table class="table">
+    <tr><th>Title</th><th>Price</th><th>Seller</th><th>Action</th></tr>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Title</td>
+            <td>@p.Price</td>
+            <td>@p.Seller?.Username</td>
+            <td>
+                <a href="/ProductAdmin/Hide/@p.Id">Hide</a> |
+                <a href="/ProductAdmin/Delete/@p.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

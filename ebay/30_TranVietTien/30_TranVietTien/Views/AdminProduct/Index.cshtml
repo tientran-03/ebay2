@@ -1,0 +1,40 @@
+﻿@model IEnumerable<_30_TranVietTien.Models.Product>
+@{
+    Layout = "_AdminLayout";
+}
+
+<table class="table table-bordered">
+    <thead class="table-light">
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Seller</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Id</td>
+                <td>@p.Title</td>
+                <td>US $@p.Price</td>
+                <td>@p.SellerId</td>
+
+                <td class="d-flex gap-2">
+                    <form asp-action="Hide" method="post">
+                        <input type="hidden" name="id" value="@p.Id" />
+                        <button class="btn btn-outline-dark btn-sm">Hide</button>
+                    </form>
+
+                    <form asp-action="Delete" method="post">
+                        <input type="hidden" name="id" value="@p.Id" />
+                        <button class="btn btn-danger btn-sm">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

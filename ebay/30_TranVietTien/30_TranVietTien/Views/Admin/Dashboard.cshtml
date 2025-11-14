@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "_AdminLayout";
+}
+
+<style>
+    .admin-box {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        background: white;
+    }
+
+    .stat-box {
+        padding: 20px;
+        border: 1px solid #eee;
+        border-radius: 6px;
+        background: #fafafa;
+        text-align: center;
+    }
+
+    .stat-number {
+        font-size: 28px;
+        font-weight: bold;
+    }
+</style>
+
+<div class="container py-4">
+
+    <h2 class="fw-bold mb-4">Admin Dashboard</h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-3">
+            <div class="stat-box">
+                <div class="stat-number">@ViewBag.TotalUsers</div>
+                <div class="text-muted">Users</div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="stat-box">
+                <div class="stat-number">@ViewBag.TotalProducts</div>
+                <div class="text-muted">Products</div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="stat-box">
+                <div class="stat-number">@ViewBag.TotalOrders</div>
+                <div class="text-muted">Orders</div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="stat-box">
+                <div class="stat-number">$@ViewBag.TotalRevenue</div>
+                <div class="text-muted">Revenue</div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
