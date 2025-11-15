@@ -1,0 +1,126 @@
+name: Build and Deploy ASP.NET App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.x'
+      - name: Restore
+        run: dotnet restore 30_TranVietTien/30_TranVietTien.sln
+      - name: Build
+        run: dotnet build 30_TranVietTien/30_TranVietTien.sln --configuration Release --no-restore
+      - name: Publish
+        run: dotnet publish 30_TranVietTien/30_TranVietTien.csproj --configuration Release --output ./output --no-restore
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: published-app
+          path: ./output
+
+  deploy:
+    needs: build
+    strategy:
+      matrix:
+        # Default labels - change to the labels you register for each self-hosted runner
+        target:
+          - ebay-app1
+          - ebay-app2
+    runs-on: [self-hosted, windows, ${{ matrix.target }}]
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: published-app
+          path: ./artifact
+
+      - name: Detect IIS site and AppPool (mapped + hardcoded path)
+        id: detect
+        shell: pwsh
+        run: |
+          Import-Module WebAdministration
+
+          # Map matrix runner label to site and appPool (strict mapping, no fallback)
+          $runnerLabel = '${{ matrix.target }}'
+          switch ($runnerLabel) {
+            'ebay-app1' {
+              $siteName = 'EbayApp1'
+              $appPool = 'EbayAppPool1'
+            }
+            'ebay-app2' {
+              $siteName = 'EbayApp2'
+              $appPool = 'EbayAppPool2'
+            }
+            default {
+              throw "No mapping for runner label '$runnerLabel'. Update workflow matrix or provide mapping."
+            }
+          }
+
+          # Ensure mapped site exists on this machine
+          try {
+            $site = Get-Website -Name $siteName -ErrorAction Stop
+          } catch {
+            Write-Host "Mapped site '$siteName' not found on this machine."
+            throw "Mapped site '$siteName' not found on this machine."
+          }
+
+          # Use standard deployment path
+          $targetPath = 'C:\inetpub\wwwroot\ebay-app'
+
+          Write-Host "Deploying to site: $siteName ; AppPool: $appPool ; Path: $targetPath"
+
+          # Export detection results to outputs
+          Write-Output "site=$siteName" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          Write-Output "apppool=$appPool" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          Write-Output "targetPath=$targetPath" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
+      - name: Take site offline
+        if: always()
+        shell: pwsh
+        run: |
+          $targetPath = '${{ steps.detect.outputs.targetPath }}'
+          Write-Host "Creating app_offline.htm in $targetPath"
+          New-Item -Path "$targetPath\app_offline.htm" -Force -Value '<h1>Updating</h1>'
+
+      - name: Deploy files (robocopy)
+        shell: pwsh
+        run: |
+          $targetPath = '${{ steps.detect.outputs.targetPath }}'
+          Write-Host "Copying files to $targetPath"
+          robocopy ./artifact "$targetPath" /MIR /NFL /NDL /NP /R:3 /W:5
+
+      - name: Remove offline and restart AppPool
+        shell: pwsh
+        run: |
+          Import-Module WebAdministration
+          $siteName = '${{ steps.detect.outputs.site }}'
+          $appPool = '${{ steps.detect.outputs.apppool }}'
+          $targetPath = '${{ steps.detect.outputs.targetPath }}'
+          Write-Host "Removing app_offline.htm from $targetPath"
+          Remove-Item "$targetPath\app_offline.htm" -ErrorAction SilentlyContinue
+          if ($appPool) {
+            Write-Host "Restarting app pool: $appPool"
+            Restart-WebAppPool -Name $appPool
+          } else {
+            Write-Host "AppPool not found; consider restarting site or iisreset if necessary."
+          }
+
+      - name: Optional: Refresh Load Balancer
+        shell: pwsh
+        run: |
+          # If you have an API or script to notify the load-balancer, call it here.
+          Write-Host "Deployment finished on runner $env:RUNNER_NAME"
+
+# Notes:
+# - This workflow expects you to register self-hosted Windows runners with labels matching the matrix values (e.g. 'ebay-app1', 'ebay-app2').
+# - The detection step attempts to find an IIS site that matches the physical path 'C:\inetpub\wwwroot\ebay-app' or has 'ebay' in the name/path.
+# - If your site path or name is different, update $targetPath or matrix labels accordingly.
