@@ -110,10 +110,23 @@ jobs:
             Write-Host "Could not restart EbayAppPool2: $($_.Exception.Message)"
           }
           
-          # Clear any potential view cache
-          Write-Host "Clearing view cache and temporary files..."
-          Remove-Item "$targetPath1\Views\*" -Recurse -Force -ErrorAction SilentlyContinue
-          Remove-Item "$targetPath2\Views\*" -Recurse -Force -ErrorAction SilentlyContinue
+          # Verify deployment success
+          Write-Host "Verifying deployment..."
+          if (Test-Path "$targetPath1\Views\Shared\_Layout.cshtml") {
+            Write-Host "EbayApp1 Views deployed successfully"
+          } else {
+            Write-Warning "EbayApp1 Views may not have deployed correctly"
+          }
+          
+          if (Test-Path "$targetPath2\Views\Shared\_Layout.cshtml") {
+            Write-Host "EbayApp2 Views deployed successfully"
+          } else {
+            Write-Warning "EbayApp2 Views may not have deployed correctly"
+          }
+          
+          # Clear temporary ASP.NET files (not Views!)
+          Write-Host "Clearing temporary ASP.NET files..."
+          Remove-Item "C:\Windows\Microsoft.NET\Framework64\v*\Temporary ASP.NET Files\*" -Recurse -Force -ErrorAction SilentlyContinue
           
           # Force IIS to reload configuration
           Write-Host "Forcing IIS configuration reload..."
