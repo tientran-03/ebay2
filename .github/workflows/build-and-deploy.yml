@@ -42,6 +42,7 @@ jobs:
       - name: Deploy to both EbayApp1 and EbayApp2
         shell: powershell
         run: |
+          $ErrorActionPreference = 'Continue'
           Import-Module WebAdministration
           $targetPath = 'C:\inetpub\wwwroot\ebay-app'
           
