@@ -20,7 +20,23 @@ jobs:
       - name: Build
         run: dotnet build ebay/30_TranVietTien/30_TranVietTien.sln --configuration Release --no-restore
       - name: Publish
-        run: dotnet publish ebay/30_TranVietTien/30_TranVietTien/30_TranVietTien.csproj --configuration Release --output ./output --no-restore --no-build --verbosity normal --property PublishUrl=./output --property WebPublishMethod=FileSystem
+        run: |
+          dotnet publish ebay/30_TranVietTien/30_TranVietTien/30_TranVietTien.csproj --configuration Release --output ./output --no-restore --no-build --verbosity normal --property:UseRazorBuildServer=false
+          echo "Published files:"
+          ls -la ./output
+          echo "Checking for Views:"
+          find ./output -name "Views" -type d || echo "No Views directory found in output"
+      - name: Verify Views in output
+        run: |
+          echo "Verifying Views are included in publish output..."
+          if [ -d "./output/Views" ]; then
+            echo "✅ Views directory found in output"
+            ls -la ./output/Views/
+          else
+            echo "❌ Views directory NOT found in output"
+            echo "Available directories:"
+            ls -la ./output/
+          fi
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
