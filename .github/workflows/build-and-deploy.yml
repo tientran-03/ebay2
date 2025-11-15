@@ -35,7 +35,10 @@ jobs:
         target:
           - ebay-app1
           - ebay-app2
-    runs-on: [self-hosted, windows, ${{ matrix.target }}]
+    runs-on: 
+      - self-hosted
+      - windows
+      - ${{ matrix.target }}
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v4
