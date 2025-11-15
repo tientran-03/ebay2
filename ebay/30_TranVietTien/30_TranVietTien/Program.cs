@@ -3,9 +3,17 @@ using _30_TranVietTien.Repositories;
 using _30_TranVietTien.Services;
 using _30_TranVietTien.Hubs;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Server.IIS;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure for IIS Integration
+builder.Services.Configure<IISOptions>(iis =>
+{
+    iis.AuthenticationDisplayName = "Windows";
+    iis.AutomaticAuthentication = false;
+});
 
 builder.Services.AddControllersWithViews();
 
@@ -78,7 +86,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection(); // Disabled for HTTP deployment
 app.UseStaticFiles();
 app.UseRouting();
 app.UseSession();
