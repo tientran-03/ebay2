@@ -20,7 +20,7 @@ jobs:
       - name: Build
         run: dotnet build ebay/30_TranVietTien/30_TranVietTien.sln --configuration Release --no-restore
       - name: Publish
-        run: dotnet publish ebay/30_TranVietTien/30_TranVietTien/30_TranVietTien.csproj --configuration Release --output ./output --no-restore
+        run: dotnet publish ebay/30_TranVietTien/30_TranVietTien/30_TranVietTien.csproj --configuration Release --output ./output --no-restore --no-build --verbosity normal
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -58,7 +58,8 @@ jobs:
           New-Item -Path "$targetPath1\app_offline.htm" -Force -Value '<h1>Updating EbayApp1...</h1>' | Out-Null
           
           # Use robocopy and handle exit codes properly (0-7 are success codes)
-          robocopy ./artifact "$targetPath1" /MIR /XD logs /NFL /NDL /NP /R:3 /W:5
+          # Force copy all files including Views and wwwroot
+          robocopy ./artifact "$targetPath1" /MIR /XD logs /NFL /NDL /NP /R:3 /W:5 /PURGE
           $robocopyExitCode1 = $LASTEXITCODE
           if ($robocopyExitCode1 -le 7) {
             Write-Host "EbayApp1 files copied successfully (exit code: $robocopyExitCode1)"
@@ -87,7 +88,7 @@ jobs:
           Write-Host "Deploying to EbayApp2..."
           New-Item -Path "$targetPath2\app_offline.htm" -Force -Value '<h1>Updating EbayApp2...</h1>' | Out-Null
           
-          robocopy ./artifact "$targetPath2" /MIR /XD logs /NFL /NDL /NP /R:3 /W:5
+          robocopy ./artifact "$targetPath2" /MIR /XD logs /NFL /NDL /NP /R:3 /W:5 /PURGE
           $robocopyExitCode2 = $LASTEXITCODE
           if ($robocopyExitCode2 -le 7) {
             Write-Host "EbayApp2 files copied successfully (exit code: $robocopyExitCode2)"
@@ -108,6 +109,15 @@ jobs:
           } catch {
             Write-Host "Could not restart EbayAppPool2: $($_.Exception.Message)"
           }
+          
+          # Clear any potential view cache
+          Write-Host "Clearing view cache and temporary files..."
+          Remove-Item "$targetPath1\Views\*" -Recurse -Force -ErrorAction SilentlyContinue
+          Remove-Item "$targetPath2\Views\*" -Recurse -Force -ErrorAction SilentlyContinue
+          
+          # Force IIS to reload configuration
+          Write-Host "Forcing IIS configuration reload..."
+          iisreset /noforce
           
           Write-Host "Deployment to both EbayApp1 and EbayApp2 completed successfully!"
           
