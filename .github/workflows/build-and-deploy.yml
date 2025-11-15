@@ -49,7 +49,7 @@ jobs:
           # Deploy to EbayApp1
           Write-Host "Deploying to EbayApp1..."
           New-Item -Path "$targetPath\app_offline.htm" -Force -Value '<h1>Updating</h1>'
-          robocopy ./artifact "$targetPath" /MIR /NFL /NDL /NP /R:3 /W:5
+          robocopy ./artifact "$targetPath" /MIR /XD logs /NFL /NDL /NP /R:3 /W:5
           Remove-Item "$targetPath\app_offline.htm" -ErrorAction SilentlyContinue
           Write-Host "Restarting EbayAppPool1..."
           Restart-WebAppPool -Name EbayAppPool1
@@ -58,7 +58,7 @@ jobs:
           # Deploy to EbayApp2
           Write-Host "Deploying to EbayApp2..."
           New-Item -Path "$targetPath\app_offline.htm" -Force -Value '<h1>Updating</h1>'
-          robocopy ./artifact "$targetPath" /MIR /NFL /NDL /NP /R:3 /W:5
+          robocopy ./artifact "$targetPath" /MIR /XD logs /NFL /NDL /NP /R:3 /W:5
           Remove-Item "$targetPath\app_offline.htm" -ErrorAction SilentlyContinue
           Write-Host "Restarting EbayAppPool2..."
           Restart-WebAppPool -Name EbayAppPool2
