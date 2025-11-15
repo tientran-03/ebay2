@@ -20,7 +20,7 @@ jobs:
       - name: Build
         run: dotnet build ebay/30_TranVietTien/30_TranVietTien.sln --configuration Release --no-restore
       - name: Publish
-        run: dotnet publish ebay/30_TranVietTien/30_TranVietTien/30_TranVietTien.csproj --configuration Release --output ./output --no-restore --no-build --verbosity normal
+        run: dotnet publish ebay/30_TranVietTien/30_TranVietTien/30_TranVietTien.csproj --configuration Release --output ./output --no-restore --no-build --verbosity normal --property PublishUrl=./output --property WebPublishMethod=FileSystem
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -112,16 +112,21 @@ jobs:
           
           # Verify deployment success
           Write-Host "Verifying deployment..."
+          Write-Host "Checking artifact contents first..."
+          Get-ChildItem ./artifact -Recurse -Name | Where-Object { $_ -like "*Views*" } | ForEach-Object { Write-Host "Found: $_" }
+          
           if (Test-Path "$targetPath1\Views\Shared\_Layout.cshtml") {
-            Write-Host "EbayApp1 Views deployed successfully"
+            Write-Host "✅ EbayApp1 Views deployed successfully"
           } else {
-            Write-Warning "EbayApp1 Views may not have deployed correctly"
+            Write-Warning "❌ EbayApp1 Views not found. Checking what was deployed..."
+            Get-ChildItem "$targetPath1" -Recurse -Name | Select-Object -First 10 | ForEach-Object { Write-Host "EbayApp1 contains: $_" }
           }
           
           if (Test-Path "$targetPath2\Views\Shared\_Layout.cshtml") {
-            Write-Host "EbayApp2 Views deployed successfully"
+            Write-Host "✅ EbayApp2 Views deployed successfully"
           } else {
-            Write-Warning "EbayApp2 Views may not have deployed correctly"
+            Write-Warning "❌ EbayApp2 Views not found. Checking what was deployed..."
+            Get-ChildItem "$targetPath2" -Recurse -Name | Select-Object -First 10 | ForEach-Object { Write-Host "EbayApp2 contains: $_" }
           }
           
           # Clear temporary ASP.NET files (not Views!)
