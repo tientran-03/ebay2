@@ -40,7 +40,7 @@ jobs:
           path: ./artifact
 
       - name: Deploy to both EbayApp1 and EbayApp2
-        shell: pwsh
+        shell: powershell
         run: |
           Import-Module WebAdministration
           $targetPath = 'C:\inetpub\wwwroot\ebay-app'
